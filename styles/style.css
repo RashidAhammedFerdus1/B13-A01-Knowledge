@@ -18,7 +18,7 @@ header {
 
 nav {
     display: flex;
-    width: 85%;
+    width: 80%;
     max-width: 1360px;
     margin: 0px auto;
     padding: 16px 120px;
@@ -103,7 +103,7 @@ nav {
 }
 
 .mainheading {
-    width: 85%;
+    width: 80%;
     max-width: 1360px;
     margin: 0px auto;
     text-align: center;
@@ -155,4 +155,48 @@ h1 {
     line-height: 20px;
     margin-bottom: 16px;
     color: #627382;
+}
+
+#toughone {
+    width: 80%;
+    max-width: 1360px;
+    margin: 0px auto;
+    display: flex;
+    padding: 120px;
+}
+.easy img {
+    width: 600px;
+
+}
+.hard h4 {
+    width: 700px;
+    height: 20px;
+    font-size: 16px;
+    color: #469165;
+    font-weight: normal;
+}
+.hard {
+    width: 700px;
+    margin: 105px 0px 105px 60px;
+}
+.hard h1 {
+    padding: 16px 0px 16px;
+    color: #001931;
+}
+.hard p {
+    padding-bottom: 40px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #627382;
+}
+.circlepain li{
+    list-style: none;
+    display: flex;
+    
+}
+.circlepain {
+    display: flex;
+}
+.circlepain {
+    padding-bottom: 16px;
 }
