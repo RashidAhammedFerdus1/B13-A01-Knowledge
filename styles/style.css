@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/* Font */
+.fontinter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* Main-Part */
+header {
+    background-color: #FFFFFF;
+    padding: 16px 120px;
+}
+nav {
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0px auto;
+    padding: 16px 120px;
+    align-items: center;
+    gap: 346px;
+}
+/* list-and-button */
+.lists {
+    list-style-type: none;
+    display: flex;
+}
+.lists{
+    gap: 32px;
+    font-size: 16px;
+    align-items: center;
+    width: 365px;
+    height: 24px;
+}
+.button {
+    background-color: #469165;
+    color: #FFFFFF;
+    width: 164px;
+    height: 44px;
+    border-radius: 5px;
+}
