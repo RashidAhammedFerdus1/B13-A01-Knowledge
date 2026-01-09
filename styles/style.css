@@ -164,10 +164,12 @@ h1 {
     display: flex;
     padding: 120px;
 }
+
 .easy img {
     width: 600px;
 
 }
+
 .hard h4 {
     width: 700px;
     height: 20px;
@@ -175,28 +177,152 @@ h1 {
     color: #469165;
     font-weight: normal;
 }
+
 .hard {
     width: 700px;
     margin: 105px 0px 105px 60px;
 }
+
 .hard h1 {
     padding: 16px 0px 16px;
     color: #001931;
 }
+
 .hard p {
     padding-bottom: 40px;
     font-weight: 400px;
     font-size: 16px;
     color: #627382;
 }
-.circlepain li{
+
+.circlepain li {
     list-style: none;
     display: flex;
-    
+
 }
+
 .circlepain {
     display: flex;
 }
+
 .circlepain {
     padding-bottom: 16px;
+}
+
+#ready {
+    width: 80%;
+    max-width: 1360px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 10px;
+    padding: 80px 40px;
+}
+
+.taxt h1 {
+    font-size: 40px;
+    color: #001931;
+}
+
+.taxt p {
+    font-size: 16px;
+    color: #627382;
+    padding: 16px 0px;
+}
+
+.must button {
+    width: 194px;
+    padding: 16.5px 16px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+    background-color: #469165;
+    border-radius: 7px;
+}
+
+.last {
+    color: #627382;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+footer {
+    padding-top: 120px;
+    background-color: #001931;
+}
+
+.footerfirst {
+    display: flex;
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.footerdiv img {
+    width: 139px;
+}
+
+.linkes {
+    width: 220px;
+    padding-right: 107px;
+}
+
+.linkes h4 {
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.linkes img {
+    width: 25px;
+    background-color: white;
+    margin-left: 5px;
+}
+
+.lasthl {
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.lasthl hr {
+    border: none;
+    height: 1px;
+    background-color: #627382;
+}
+
+.lasthl h4 {
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
+/* hover */
+.button:hover {
+    background: transparent;
+    border: 1px solid black;
+    color: #e2c8c8;
+}
+
+.start:hover {
+    background: transparent;
+    border: 1px solid black;
+    color: #e2c8c8;
+}
+
+.see:hover {
+    background: transparent;
+    border: 1px solid black;
+    color: #e2c8c8;
 }
